@@ -11,6 +11,7 @@ public class arrayfuctiondemo {
         for (int i = 0; i < copyarr.length; i++) {
             System.out.print(copyarr[i] + " ");
         }
+        System.out.println("heloo world");
     }
 
     public static void printarray(int[] array) {
