@@ -12,6 +12,7 @@ public class arrayfuctiondemo {
             System.out.print(copyarr[i] + " ");
         }
         System.out.println("heloo world");
+        System.out.println("version");
     }
 
     public static void printarray(int[] array) {
