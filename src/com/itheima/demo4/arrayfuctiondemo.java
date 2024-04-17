@@ -13,6 +13,7 @@ public class arrayfuctiondemo {
         }
         System.out.println("heloo world");
         System.out.println("version");
+        System.out.println("brunch git1");
     }
 
     public static void printarray(int[] array) {
