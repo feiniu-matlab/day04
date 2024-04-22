@@ -24,6 +24,7 @@ public class Captchademo {
             System.out.print(chs[i]);
             System.out.println("hello world!");
             System.out.println("hello china!");
+            System.out.println("hello guangxi!");
         }
     }
 }
