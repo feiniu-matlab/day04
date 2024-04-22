@@ -23,6 +23,7 @@ public class Captchademo {
         for (int i = 0; i < 52; i++) {
             System.out.print(chs[i]);
             System.out.println("hello world!");
+            System.out.println("hello china!");
         }
     }
 }
