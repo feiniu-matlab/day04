@@ -27,7 +27,7 @@ public class Captchademo {
             System.out.println("hello guangxi!");
             System.out.println("push git");
             System.out.println("push by SSH");
-            System.out.println("pull from github") 
+            System.out.println("pull from github");
         }
     }
 }
