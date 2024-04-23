@@ -16,8 +16,9 @@ import java.util.Random;
 public class Captchademo {
     public static void main(String[] args) {
         char[] chs = new char[52];
-        char[] cap = new char[5];
-        char[] nums = {'0','1','2','3','4','5','6','7','8','9'};
+//        char[] cap = new char[5];
+        String result = "";
+        //char[] nums = {'0','1','2','3','4','5','6','7','8','9'};
         Random r = new Random();
         // 将大写字母放到数组chs里面
         for (int i = 0; i < 26; i++) {
@@ -29,18 +30,18 @@ public class Captchademo {
             int num1 = r.nextInt(52);
             if(i1 == 4){
                 int num2 = r.nextInt(10);
-                cap[i1] = nums[num2];
+                result = result + num2;
             }else {
-                cap[i1] = chs[num1];
+                result = result + chs[num1];
             }
 
         }
         /*for (int i = 0; i < 52; i++) {
             System.out.print(chs[i]);
         }*/
-        System.out.print("验证码为：");
-        for (int i = 0; i < 5; i++) {
+        System.out.print("验证码为："+ result);
+/*        for (int i = 0; i < 5; i++) {
             System.out.print(cap[i]);
-        }
+        }*/
     }
 }
